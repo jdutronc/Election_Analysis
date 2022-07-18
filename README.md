@@ -38,11 +38,11 @@ how this script can be used for any future election (2 examples)
 This script can easily be used in the future for any upcoming election:
 - if the format of the raw data source remains the same (VoteID/County/Candidate), the only piece of code that will need updating is the path and possibly the name of the source file, here:
 <br>
-  '''python
+  ```python
   Add a variable to load a file from a path.
   file_to_load = os.path.join("Election_Analysis", "Resources", "election_results.csv")
   Add a variable to save the file to a path.
   file_to_save = os.path.join("Election_Analysis", "Analysis", "election_results.txt")
-  '''
+  ```
 <br>
 - 
