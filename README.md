@@ -43,4 +43,13 @@ Add a variable to load a file from a path.
 file_to_load = os.path.join("Election_Analysis", "Resources", "election_results.csv")
 ```
 
-- 
+- if th structure of the raw data changes, be sure to update this piece here:
+
+```python {.line-numbers}
+# Get the candidate name from each row.
+candidate_name = row[2]
+
+# Extract the county name from each row.
+county_name = row[1]
+```
+
