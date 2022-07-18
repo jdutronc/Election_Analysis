@@ -39,17 +39,17 @@ This script can easily be used in the future for any upcoming election:
 - if the file format remains .csv and the structure of the raw data source remains the same (VoteID/County/Candidate), the only piece of code that would need updating is the path and possibly the name of the source file, here (lines 8-9):
 
 ```python
-# Add a variable to load a file from a path.
+Add a variable to load a file from a path.
 file_to_load = os.path.join("Election_Analysis", "Resources", "election_results.csv")
 ```
 
 - if the structure of the raw data changes, be sure to update the column indexes in this piece here (lines 46-50):
 
 ```python
-# Get the candidate name from each row.
+Get the candidate name from each row.
 candidate_name = row[2]
 
-# Extract the county name from each row.
+Extract the county name from each row.
 county_name = row[1]
 ```
 
