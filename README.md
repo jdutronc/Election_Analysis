@@ -38,14 +38,14 @@ This script can easily be used in the future for any upcoming election:
 - the script can be used 'as is' for other elections whatever the number of counties, number of candidates or number of votes
 - if the file format remains .csv and the structure of the raw data source remains the same (VoteID/County/Candidate), the only piece of code that would need updating is the path and possibly the name of the source file, here:
 
-```python
+```python class:"lineNo"
 Add a variable to load a file from a path.
 file_to_load = os.path.join("Election_Analysis", "Resources", "election_results.csv")
 ```
 
 - if th structure of the raw data changes, be sure to update this piece here:
 
-```python {.line-numbers}
+```python class:"lineNo"
 # Get the candidate name from each row.
 candidate_name = row[2]
 
