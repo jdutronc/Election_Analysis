@@ -16,7 +16,7 @@ The Colorado Board of Elections has tasked us with analyzing the latest election
 ## Audit Results
 
 The results of the election (pictured right) show that:
-<txt align="right" src="https://github.com/jdutronc/Election_Analysis/blob/main/Analysis/election_results.txt">
+<img align="right" src="https://github.com/jdutronc/Election_Analysis/blob/main/Resources/election_results.png" width=300>
 - there were 369,711 total votes cast in the 3 districts of Arapahoe, Denver and Jefferson
 
 - Each county received the following number of votes:
